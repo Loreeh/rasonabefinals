@@ -11,13 +11,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/index.html'));
 });
-app.get('/Part1.html', function(req, res){
+app.get('/Part1', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/Part1.html'));
 });
-app.get('/Part2.html', function(req, res){
+app.get('/Part2', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/Part2.html'));
 });
-app.get('/Part3.html', function(req, res){
+app.get('/Part3', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/Part3.html'));
 });
 app.get('*', function(req, res){

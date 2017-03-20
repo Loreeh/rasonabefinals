@@ -18,7 +18,6 @@ $.ajax({
 	   <center>
 		<h1>${res.Title}</h1>
 		<img width=700 height=900 src="${res.Poster}"/>
-		<iframe width="854" height="480" src="https://www.youtube.com/embed/wdM7athAem0" frameborder="0" allowfullscreen></iframe>
 		<div id="container">
 		<div id="left">
 		
